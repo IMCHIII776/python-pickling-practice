@@ -1,0 +1,30 @@
+{
+  "fruits.pkl": {
+    "bytes": 54,
+    "sha256": "548b29642e6558457cf29b480786ad54a82f76721ec56483406c9813c64f9b38"
+  },
+  "scores.pkl": {
+    "bytes": 56,
+    "sha256": "1f8c252d57f26d5052deb6b0c8e1527c7a6daf68394af1ab3a0dbb94fae6cdf3"
+  },
+  "complex_data.pkl": {
+    "bytes": 180,
+    "sha256": "601b47421d5069d77f4b1bee0f72c34c9bddb1cd9f09fbfc05463aad6ca83f0b"
+  },
+  "ml_course_grades.pkl": {
+    "bytes": 227,
+    "sha256": "04797f276ef614667f1db0fe5b036c6ea9418750bd06cb36ed7cf008ab5625ea"
+  },
+  "ml_course_grades_updated.pkl": {
+    "bytes": 258,
+    "sha256": "683793d8e2b2c4d5af4362a5ee84af9d91f9aa10fdc11abe986c4b27e65c22d1"
+  },
+  "study_hours_model.pkl": {
+    "bytes": 398,
+    "sha256": "c2cc68a92d8affaaa520e408f0b8fcd1d615df5bf2a856ca6b0b34502ce4511f"
+  },
+  "study_hours_model.joblib": {
+    "bytes": 575,
+    "sha256": "bbc5adef1d0799fe65a814513251ff7200b05c9c0b0e63c6238387844e391a1e"
+  }
+}

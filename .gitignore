@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Deliberately keep .pkl, .joblib, .png, and execution records: the assignment requires them.

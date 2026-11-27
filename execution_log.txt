@@ -1,0 +1,41 @@
+Python Pickling Practice | LanMingqi | 26723811
+All student names, grades, and study-hour observations below are example data.
+
+PART 1: Regular Python data structures
+fruits.pkl: saved and loaded; equality = True
+  Loaded: ['apple', 'banana', 'mango', 'strawberry']
+scores.pkl: saved and loaded; equality = True
+  Loaded: {'Alice': 92, 'Bob': 85, 'Charlie': 78, 'Diana': 95}
+complex_data.pkl: saved and loaded; equality = True
+  Loaded: {'fruits': ['apple', 'banana', 'mango', 'strawberry'], 'scores': {'Alice': 92, 'Bob': 85, 'Charlie': 78, 'Diana': 95}, 'metrics': [1.2, 3.4, 5.6, 7.8], 'active': True}
+
+PART 2: Custom GradeTracker object
+GradeTracker for 'Introduction to Machine Learning' with 5 students
+Loaded timestamp: 2026-11-27T10:56:04.168520
+Initial class average: 87.0
+Top student: ('Alice', 95)
+Updated class average (8 students): 86.875
+Top student after update: ('Alice', 95)
+
+PART 3: scikit-learn LinearRegression with pickle
+Coefficient: 1.709775
+Intercept: 52.435081
+Training-set Mean Squared Error: 16.791596
+Training-set R-squared: 0.885466
+These are in-sample tutorial metrics, not held-out test results.
+Study hours | Predicted score
+        5.0 | 61.0
+       10.0 | 69.5
+       15.0 | 78.1
+       20.0 | 86.6
+Additional prediction-function examples:
+  12.5 hours -> 73.8
+  7.8 hours -> 65.8
+  22 hours -> 90.1
+
+PART 4: joblib model persistence
+17.5 hours: pickle prediction = 82.356147
+17.5 hours: joblib prediction = 82.356147
+Predictions are identical: True
+
+All four parts completed; every saved file was loaded and checked.

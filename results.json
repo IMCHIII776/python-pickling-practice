@@ -1,0 +1,57 @@
+{
+  "student": {
+    "name": "LanMingqi",
+    "id": "26723811"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "1.26.4",
+    "scikit_learn": "1.5.2",
+    "joblib": "1.4.2",
+    "matplotlib": "3.9.4"
+  },
+  "part1_round_trip_equal": true,
+  "grades": {
+    "initial_count": 5,
+    "initial_average": 87.0,
+    "updated_count": 8,
+    "updated_average": 86.875,
+    "top_student": [
+      "Alice",
+      95
+    ]
+  },
+  "regression": {
+    "seed": 42,
+    "sample_count": 30,
+    "coefficient": 1.7097752142314138,
+    "intercept": 52.43508117527469,
+    "training_mse": 16.7915959046769,
+    "training_r2": 0.8854660741986071,
+    "metric_scope": "training observations; no held-out evaluation in the tutorial",
+    "predictions": [
+      {
+        "hours": 5.0,
+        "score": 60.98395724643176
+      },
+      {
+        "hours": 10.0,
+        "score": 69.53283331758882
+      },
+      {
+        "hours": 15.0,
+        "score": 78.08170938874589
+      },
+      {
+        "hours": 20.0,
+        "score": 86.63058545990296
+      }
+    ],
+    "additional_predictions": {
+      "12.5": 73.80727135316737,
+      "7.8": 65.77132784627972,
+      "22": 90.05013588836579
+    }
+  },
+  "pickle_joblib_equal": true
+}

@@ -1,0 +1,11 @@
+Custom objects loaded in a fresh process:
+  Original: 5 students; average = 87.000
+  Updated:  8 students; average = 86.875
+
+Study hours | Pickle prediction | joblib prediction
+        5.0 |            60.984 |            60.984
+       10.0 |            69.533 |            69.533
+       15.0 |            78.082 |            78.082
+       20.0 |            86.631 |            86.631
+
+Verified: all saved objects can be reloaded; no model retraining was performed.
